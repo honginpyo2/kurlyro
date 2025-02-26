@@ -1,7 +1,7 @@
-name: Kurly Data Collection 12
+name: Kurly Data Collection 4
 on:
   schedule:
-    - cron: '12 * * * *'  # 매시간 정각에 실행
+    - cron: '4 * * * *'  # 매시간 4분에 실행
   workflow_dispatch:
 jobs:
   run-data-collection:
